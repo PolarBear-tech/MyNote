@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"cee8aaeb8485fb86","type":"text","text":"MC 1.20.1 Fabric 模组开发教程","x":-125,"y":-30,"width":265,"height":70,"color":"1"},
+		{"id":"be4e86f95a75b629","type":"text","text":"写在前面","x":321,"y":-143,"width":250,"height":60},
+		{"id":"d6ff1bab73d9e421","type":"file","file":"Fabric/写在前面.md","x":720,"y":-240,"width":360,"height":60},
+		{"id":"9206a2b3404c2279","x":317,"y":-8,"width":250,"height":60,"type":"text","text":"开发模组基础"},
+		{"id":"2216099301d61962","x":720,"y":-113,"width":350,"height":53,"type":"file","file":"Fabric/开发模组基础.md"},
+		{"id":"219883829e7f5aa8","type":"text","text":"开发工具","x":1200,"y":68,"width":250,"height":60},
+		{"id":"f7526eb23b83a907","x":1204,"y":190,"width":250,"height":60,"type":"text","text":""},
+		{"id":"5eb8f3841762910f","type":"text","text":"IDEA","x":1540,"y":10,"width":250,"height":60},
+		{"id":"f93b3cc76a79bbcf","type":"text","text":"Ellipse","x":1540,"y":103,"width":250,"height":60},
+		{"id":"ae53454b97201091","type":"text","text":"开发环境的搭建","x":308,"y":187,"width":250,"height":60},
+		{"id":"7eb35f86c0eef48c","type":"file","file":"Fabric/开发环境的搭建.md","x":720,"y":63,"width":340,"height":70}
+	],
+	"edges":[
+		{"id":"54abbcd2693aad20","fromNode":"ae53454b97201091","fromSide":"right","toNode":"7eb35f86c0eef48c","toSide":"left","color":"5"},
+		{"id":"efa049020491c711","fromNode":"be4e86f95a75b629","fromSide":"right","toNode":"d6ff1bab73d9e421","toSide":"left","color":"5"},
+		{"id":"ef058b042552c2cb","fromNode":"219883829e7f5aa8","fromSide":"right","toNode":"5eb8f3841762910f","toSide":"left"},
+		{"id":"ed243f9ab4c21eef","fromNode":"219883829e7f5aa8","fromSide":"right","toNode":"f93b3cc76a79bbcf","toSide":"left"},
+		{"id":"150614e8d078bafa","fromNode":"cee8aaeb8485fb86","fromSide":"right","toNode":"be4e86f95a75b629","toSide":"left"},
+		{"id":"7dd53227b42be048","fromNode":"cee8aaeb8485fb86","fromSide":"right","toNode":"ae53454b97201091","toSide":"left"},
+		{"id":"bb33a451606b530e","fromNode":"7eb35f86c0eef48c","fromSide":"right","toNode":"219883829e7f5aa8","toSide":"left"},
+		{"id":"5729a338835907ff","fromNode":"7eb35f86c0eef48c","fromSide":"right","toNode":"f7526eb23b83a907","toSide":"left"},
+		{"id":"d84bd3cb3ba9463b","fromNode":"cee8aaeb8485fb86","fromSide":"right","toNode":"9206a2b3404c2279","toSide":"left"},
+		{"id":"2e438d8c18521058","fromNode":"9206a2b3404c2279","fromSide":"right","toNode":"2216099301d61962","toSide":"left","color":"5"}
+	]
+}
